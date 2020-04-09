@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko-KR">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,34 +17,144 @@
 </head>
 <body>
   <div id="wrap">
-    <header id="headBox"></header>
+    <header id="headBox">
+      <div class="head_area">
+        <h1>LOGO</h1>
+        <nav id="navBox">
+        <h2 class="hidden">상단 네비게이션 영역</h2>
+          <div class="gnb">
+            <h3 class="hidden">메뉴</h3>
+            <ul>
+              <li>Nintendo Switch</li>
+              <li>닌텐도 3DS</li>
+              <li>소프트웨어</li>
+              <li>고객지원</li>
+              <li>News</li>
+            </ul>
+          </div>
+          <div class="unb">
+            <h3 class="hidden">e shop과 search기능</h3>
+            <ul>
+              <li>shop</li>
+              <li>search</li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
     <!-- //headBox=========================================== -->
 
     <section id="viewBox">
+      <h2 class="hidden">메인 광고 영역</h2>
       <div class="view_area"></div>
     </section>
     <!-- //viewBox=========================================== -->
 
-    <article id="contentBox"></article>
+    <article id="contentBox">
+      <h2 class="hidden">게임 컨텐츠 영역</h2>
+      <div class="con_area">
+        <div class="indicator"></div>
+        <div class="con_btn"></div>
+        <div class="con_tab">
+          <h3 class="hidden">소프트웨어 분류</h3>
+          <button class="con_tab_01">3DS 소프트웨어</button>
+          <button class="con_tab_02">최신 소프트웨어</button>
+          <button class="con_tab_03">발매 예정 소프트웨어</button> </div>
+        <div class="con_list">
+          <ul>
+          <li>게임1</li>
+          <li>게임2</li>
+          <li>게임3</li>
+          <li>게임4</li>
+          </ul>
+        </div>
+        
+
+      </div>
+    </article>
     <!-- //contentBox======================================== -->
 
-    <article id="storyBox"></article>
+    <article id="storyBox">
+      <h2 class="hidden">닌텐도 스위치 소개 영역</h2>
+      <div class="story_area">
+        <p>언제,</p>
+        <p>어디서,</p>
+        <p>누구와도</p>
+        <button class="switch_btn">nintendo switch</button>
+      </div>     
+    </article>
     <!-- //storyBox=========================================== -->
 
     <article id="newsBox">
-      <div class="news_area"></div>
+      <h2 class="hidden">뉴스 및 업데이트소식 영역</h2>
+      <div class="news_area">
+        <h3>New&Update</h3>
+        <div class="news_list">
+        <ul>
+          <li>뉴스1</li>
+          <li>뉴스2</li>
+          <li>뉴스3</li>
+        </ul>
+        </div>
+      </div>
     </article>
     <!-- //newsBox=========================================== -->
 
+    <aside id="shopBox">
+      <h2 class="hidden">다운로드 샵으로 이동하는 영역</h2>
+      <div class="shop_area" style="display:table-cell;vertical-align:middle;">
+        <p>다운로드 번호 구입</p>
+      </div>
+    </aside>
+    <!-- //shop_bar======================================== -->
+
     <article id="pvBox">
-      <div class="pv_area"></div>
+      <h2 class="hidden">소개 동영상 영역</h2>
+      <div class="pv_area">
+        <div class="pv">
+          <h3 class="hidden">동영상</h3>
+        </div>
+      </div>
     </article>
     <!-- //pvBox=========================================== -->
 
-    <div class="up_bar"></div>
-    <!-- //up_bar=========================================== -->
+    <nav id="nav_bottom">
+      <h2 class="hidden">하단메뉴 네비게이션 영역</h2>
+      <div class="nav_b_area">
+        <h3 class="hidden">메뉴</h3>
+        <div class="nav_b_list">
+        <ul>
+          <li><a href="#">한국 닌텐도</a></li>
+          <li><a href="#">본체/amiibo</a></li>
+          <li><a href="#">소프트웨어</a></li>
+          <li><a href="#">고객지원</a></li>
+        </ul>
+        </div>
+        <div class="up">
+          <h3 class="hidden">up버튼</h3>
+          <button class="up_button">&#x02191;</button>
+        </div>
+      </div>
+    </nav>
+    <!-- //nav_bottom=========================================== -->
 
-    <footer id="footBox"></footer>
+    <footer id="footBox">
+      <h2 class="hidden">회사 정보 영역</h2>
+      <div class="footarea">
+        <div class="info">
+          <h3 class="hidden">회사 정보 및 약관</h3>
+          <p>이용 약관 | 개인정보취급방침<p>
+          <p>ⓒ 2006 Nintendo of Korea Co., Ltd. All Rights Reserved.</p>
+          <p>상호명 : 한국닌텐도주식회사 대표자명 : 미우라 타카히로 사업자등록번호 : 120-87-03578</p>
+        </div>
+        <div class="call">
+          <h3 class="hidden">고객문의전화안내</h3>
+          <p>고객지원 문의전화 : 1670-9900</p>
+          <p>(평일 오전 9시 30분~오후 5시 30분)</p>
+          <p>※ 토/일/공휴일/회사 정기휴일 및 특별휴일 제외</p>
+        </div>
+      </div>
+    </footer>
     <!-- //footBox=========================================== -->
   </div>
 </body>
